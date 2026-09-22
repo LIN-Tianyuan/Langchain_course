@@ -1,0 +1,4 @@
+from langchain_core.prompts import load_prompt 
+
+template = load_prompt("prompts/prompt.yaml", encoding="utf-8") 
+print(template.format(name="alex", adjective="funny")) 

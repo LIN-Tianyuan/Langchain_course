@@ -19,7 +19,7 @@ template = ChatPromptTemplate(
 ) 
 
 prompt = template.format_messages( 
-    image_url="https://img2.baidu.com/it/u=2976763563,2523722948&fm=253&app=138&f=JPEG?w=800&h=1200" 
+    image_url="https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg" 
 ) 
 
 resp = llm.invoke(prompt) 

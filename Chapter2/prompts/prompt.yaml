@@ -1,0 +1,3 @@
+_type: "prompt" 
+input_variables: ["name", "what"] 
+template: "Please, {name}, tell a {adjective} story." 
